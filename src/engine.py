@@ -11,7 +11,7 @@ from langchain import OpenAI, LLMChain
 from langchain.prompts import Prompt
 import tiktoken
 
-os.environ['OPENAI_API_KEY']= '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'
+os.environ['OPENAI_API_KEY']= 'Your OpenAI API Key'
 tokenizer= tiktoken.get_encoding('cl100k_base')
 def tiktoken_len(text):
     tokens= tokenizer.encode(text, disallowed_special= ())

@@ -1,0 +1,8 @@
+lanchain
+faiss-cpu
+pickle
+tiktoken 
+os
+json
+streamlit
+pathlib
