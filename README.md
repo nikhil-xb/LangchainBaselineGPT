@@ -23,6 +23,9 @@ It is be noted, that I passed my few of my chats to the model, hence I had to pe
 3. Generate `.pkl` file which contains the vector embeddings. This can be done  by run the  `train()` method in the `engine.py` file. 
 4. Finally, run the `start_chat.py` in your local machine. Check [here](https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app) to know how to to deploy your site. 
 
+### Demo Chat
+<img src="demo.png" width="800" height="400">
+
 Note: Deployment is temporarily paused in my case since my OpenAI hard-limit is exhausted. :^)
 
 SO THAT'S IT. GO AND CREATE VERSION OF YOURSELF.
