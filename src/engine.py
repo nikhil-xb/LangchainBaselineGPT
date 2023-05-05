@@ -45,7 +45,7 @@ def train():
 
 class Chat:
 
-    def onMessage(selCf, llmchain, store, question, history):
+    def onMessage(self, llmchain, store, question, history):
             docs= store.similarity_search(question)
             context= []
             for i, doc in enumerate(docs):
