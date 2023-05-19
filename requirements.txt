@@ -1,4 +1,4 @@
-lanchain
+langchain
 faiss-cpu
 pickle
 tiktoken 
